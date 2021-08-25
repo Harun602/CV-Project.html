@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #EEE;
+    
+
+}
+.container{
+   max-width: 1000px;
+   background: #E4F9F5;
+   margin: 0 auto;
+   padding: 20px;
+}
+header{}
+
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid #e74c3c;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+    font-family: 'Satisfy', cursive;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bolder;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid #e74c3c;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*--------------------------------------------
+personal information start
+----------------------------------------------*/
+.personal-section{
+
+}
+.content{
+
+}
+.address{
+    width: 70%;
+    float: left;
+}
+.right-div{
+    width: 30%;
+    float: left;
+}
+.common-hr{
+    border: 1px solid #e74c3c;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*--------------------------------------------
+Education design
+----------------------------------------------*/
+.edu-templater-left{
+    float: left;
+    width: 45%;
+}
+.edu-templater-right{
+    float: left;
+    width: 45%;
+}
+.bottom-container{
+    background: #413939;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+    margin: 10px 0;
+}
+.bottom-container p{
+    color: tomato;
+    margin: 10px;
+}
+
+.all-single-post{
+    float: right;
+    width: 70%;
+}
+.all-single-post a{
+    text-decoration: circle;
+    text-decoration: none;
+    color: black;
+}
+.single-blog-post{
+    width: 30%;
+    float: left;
+}
+
+.demo{
+    width: 70%;
+    float: left;
+}
+.all-news{
+    width: 45%;
+    float: left;
+}
+.catagory-news{
+    width: 45%;
+    float: right;
+}
